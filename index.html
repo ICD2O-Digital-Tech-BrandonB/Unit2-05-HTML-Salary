@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!--Meta Tags-->
     <meta charset="utf-8">
     <meta name="description" content="Salary, with JavaScript">
     <meta name="keywords" content="immaculata, icd2o">
     <meta name="author" content="BrandonBCode">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="./faviconjs25/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./faviconjs25/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./faviconjs25/favicon-16x16.png">
-    <link rel="manifest" href="./faviconjs25/site.webmanifest">
+
+    <!--Favicon Inserting-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./faviconjs26/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./faviconjs26/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./faviconjs26/favicon-16x16.png">
+    <link rel="manifest" href="./faviconjs26/site.webmanifest">
+
+    <!--Link to Style Sheet-->
     <link rel="stylesheet" href="./css/style.css">
     <title>Salary With JS</title>
   </head>
   <body>
+
+    <!--Links JS file-->
     <script src="./js/script.js"></script>
     <h1>Salary Program</h1>
     <p>
       <h3>Please enter the following:</h3>
+
+      <!--Information for Function-->
       <form action="javascript:hoursWorked()">
         <label for="hours-worked">Number of Hours Worked</label>
         <input type="number" id="hours-worked" placeholder="Number of Hours Worked"><br><br>
@@ -26,8 +35,10 @@
         <input type="submit" value="Calculate Pay">
       </form>
     </p>
+    
 		<!-- Create a space where the user information will be displayed -->
-    <div id="gov-pay"></div>
+    <div id="gross-pay"></div>
     <div id="net-pay"></div>
+    <div id="gov-pay"></div>
   </body>
 </html>

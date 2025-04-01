@@ -21,6 +21,8 @@ function hoursWorked() {
     let net = gross - govPay;
 
   // output
-    document.getElementById("gov-pay").innerHTML = "The Government Takes: " + gross.toFixed(2) + "$";
-    document.getElementById("net-pay").innerHTML = "Your net pay is: " + net.toFixed(2) + "$";
+    document.getElementById("gross-pay").innerHTML = "Your Gross pay is: " + gross.toFixed(2) + "$";
+  document.getElementById("net-pay").innerHTML = "Your net pay is: " + net.toFixed(2) + "$";
+  document.getElementById("gov-pay").innerHTML = "The Government Takes: " + govPay.toFixed(2) + "$";
+
 }
